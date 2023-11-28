@@ -1,0 +1,52 @@
+body{
+    font-family: 'Teko';font-size: 22px;
+    background-color: cadetblue;
+}
+.flex-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+input{
+    border-radius: 1%;
+    border-color: white;
+    border-width: 1px;
+    border-right-width: 200px;
+    opacity: 1;
+    
+}
+#tarefa{
+    font-size:22px;
+    opacity: 0.4;
+    padding-right: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+
+}
+#tarefas{
+    text-align: left;
+    font-size: 30px;
+}
+#adicionar{
+    color: blue;
+}
+li {
+    list-style-type: none;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+li:hover{
+    background-color: beige;
+    transition: 0s;
+    opacity: 1;
+}
